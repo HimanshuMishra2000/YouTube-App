@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+  }
+  #videos-s,
+  #videos-d {
+    width: 90%;
+    margin: 60px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-gap: 2em;
+  }
+  #videos-d {
+    margin-top: 10px;
+  }
+  .heading {
+    grid-area: 1/1/1/-1;
+    font-size: 30px;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+  }
+  .nav img {
+    height: 45px;
+
+  }
+  
+  .search input {
+    border: 1px solid grey;
+    outline: none;
+    background-color: black;
+    color: white;
+    width: 50vw;
+    padding: 10px;
+  }
+  .fa {
+    border: 1px solid grey;
+    outline: none;
+    background-color: #202020;
+    color: grey;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+  }
+  .fa:hover {
+    color: white;
+  }
