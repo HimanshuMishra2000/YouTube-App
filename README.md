@@ -5,7 +5,7 @@ Using JavaScrit, HTML and CSS only.
 * Search any videos from youtube API.
 * Max results are capped at 60.
 
-
+<img src="https://github.com/HimanshuMishra2000/YouTube-App/blob/main/Screenshot%20(151).png?raw=true">
 
 
 
